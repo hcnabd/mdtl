@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1d3557;
+}
+button {
+  cursor: pointer;
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-weight: 600;
+  color: rgb(241, 240, 240);
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: rgb(241, 240, 240);
+}
+.tasksContainer {
+  width: 100%;
+  height: 60px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tasksInput {
+  width: 90%;
+  height: 100%;
+  padding: 10px 25px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 17px;
+}
+.addBtn {
+  width: 10%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #68a038;
+  font-size: 15px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+li {
+  background-color: #457b9d;
+  margin: 8px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+}
+li span {
+  padding: 10px 25px;
+  width: 80%;
+  color: rgb(241, 240, 240);
+}
+.tasksBtn {
+  display: flex;
+  width: 20%;
+}
+.removeBtn {
+  background-color: #d62828;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 50px;
+  font-size: 14px;
+}
+.completeBtn {
+  background-color: #f77f00;
+  height: 50px;
+  font-size: 14px;
+}
+.taskDoneText {
+  text-decoration: line-through;
+}
+.taskDoneList {
+  background-color: #365f78;
+}
